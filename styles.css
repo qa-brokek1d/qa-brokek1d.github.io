@@ -18,8 +18,9 @@ video {
 p {
   font-family: 'Comfortaa', cursive;
   color: #000000;
-  text-indent: 1400px;
-  font-size:16px
+  font-size:16px;
+  text-align: right;
+  margin-right: 90px;
 }
 
 h1 {
@@ -127,6 +128,7 @@ h1 {
   height: 460px;
   transform: translate(-60%,-30%);
 }
+
 @media screen and (max-width: 1080px) and (max-height: 2400px) {
   video {
     position: fixed;
@@ -151,7 +153,7 @@ h1 {
       color: #000000;
       font-size: 16px;
       text-align: justify;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
       margin-left: 300px;
       margin-top: 750px;
     }
