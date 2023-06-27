@@ -134,7 +134,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
   video {
-    position: absolute;
+    position: fixed;
  top: 0.1px;
   }
   h1 {
@@ -152,6 +152,6 @@ h1 {
       color: #000000;
       font-size: 16px;
       text-align: right;
-      margin-top: 750px;
+      margin-top: 680px;
     }
   }
