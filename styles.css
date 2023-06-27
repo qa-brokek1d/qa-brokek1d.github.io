@@ -5,7 +5,7 @@ body {
   min-height: 100%;
   background-position: center;
   background-size: cover;
-cursor: url("cursor.cur"), auto;
+  cursor: url("cursor.cur"), auto;
 }
 video {
   position: absolute;
@@ -39,7 +39,7 @@ h1 {
 
 #menu {
   z-index: 2;
-cursor: url("cursor.cur"), auto;
+  cursor: url("cursor.cur"), auto;
 }
 
 #menu-bar {
@@ -51,7 +51,7 @@ cursor: url("cursor.cur"), auto;
 .bar {
   height: 5px;
   width: 100%;
-  background-color: hsl(0, 0%, 0%);
+  background-color: #000000;
   display: block;
   border-radius: 5px;
   transition: 0.3s ease;
@@ -80,15 +80,15 @@ cursor: url("cursor.cur"), auto;
 }
 
 .nav li a {
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 17px;
   text-decoration: none;
-cursor: url("cursor.cur"), auto;
+  cursor: url("cursor.cur"), auto;
 }
 
 .nav li a:hover {
   font-weight: bold;
-cursor: url("cursor.cur"), auto;
+  cursor: url("cursor.cur"), auto;
 }
 
 .menu-bg, #menu {
@@ -111,7 +111,7 @@ cursor: url("cursor.cur"), auto;
 }
 
 .change .bar {
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
 }
 
 .change #bar1 {
@@ -154,4 +154,3 @@ cursor: url("cursor.cur"), auto;
       margin-top: 750px;
     }
   }
-  
