@@ -5,6 +5,7 @@ body {
   min-height: 100%;
   background-position: center;
   background-size: cover;
+cursor: url("cursor.cur"), auto;
 }
 video {
   position: absolute;
@@ -21,7 +22,6 @@ p {
   font-size:16px;
 	user-select: none;
   text-align: right;
-  margin-right: 90px;
 }
 
 h1 {
@@ -39,13 +39,13 @@ h1 {
 
 #menu {
   z-index: 2;
+cursor: url("cursor.cur"), auto;
 }
 
 #menu-bar {
   width: 35px;
   height: 30px;
   margin: 30px 0 20px 20px;
-  cursor: pointer;
 }
 
 .bar {
@@ -83,10 +83,12 @@ h1 {
   color: rgb(0, 0, 0);
   font-size: 17px;
   text-decoration: none;
+cursor: url("cursor.cur"), auto;
 }
 
 .nav li a:hover {
   font-weight: bold;
+cursor: url("cursor.cur"), auto;
 }
 
 .menu-bg, #menu {
@@ -100,7 +102,6 @@ h1 {
   width: 0;
   height: 0;
   margin: 30px 0 20px 20px;
-  background: radial-gradient(circle, #ea6bde, #7b6ceb);
   border-radius: 50%;
   transition: 0.5s ease;
 }
@@ -134,7 +135,6 @@ h1 {
 @media screen and (max-width: 768px) {
   video {
     position: absolute;
-    left: 100;
   }
   h1 {
     text-align: center;
@@ -151,7 +151,6 @@ h1 {
       color: #000000;
       font-size: 16px;
       text-align: right;
-      margin-left: 100px;
       margin-top: 750px;
     }
   }
