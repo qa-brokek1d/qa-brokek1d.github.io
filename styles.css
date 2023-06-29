@@ -85,6 +85,7 @@ h1 {
 .nav li {
   list-style: none;
   padding: 12px 0;
+user-select: none;
 }
 
 .nav li a {
