@@ -16,6 +16,14 @@ video {
   min-height: 100%;
 }
 
+audio{
+  width: 100px;
+  height: 20px;
+}
+audio::-webkit-media-controls-panel{
+  background-color: #85898B;
+}
+
 p {
   font-family: 'Comfortaa', cursive;
   color: #000000;
