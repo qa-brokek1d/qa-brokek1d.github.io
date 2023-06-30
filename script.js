@@ -4,8 +4,9 @@ function menuOnClick() {
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
 
-var audioPlayer = document.getElementById("audioPlayer");
+  var audio = new Audio('sound.wav');
+  var playAudioBtn = document.getElementById('play-audio');
 
-function playAudio() {
-audioPlayer.play();
-}
+  playAudioBtn.addEventListener('click', function() {
+    audio.play();
+  });
