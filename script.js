@@ -5,6 +5,7 @@ function menuOnClick() {
 }
 
   var audio = new Audio('sound.wav');
+  audio.loop = true;
   var playAudioBtn = document.getElementById('play-audio');
 
   playAudioBtn.addEventListener('click', function() {
