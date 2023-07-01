@@ -7,9 +7,11 @@ function menuOnClick() {
 var audio = new Audio('sound.wav');
 
 function playAudioWithLoop() {
-  audio.currentTime = 0; 
-  audio.loop = true; 
-  audio.play(); 
+  if (audio.paused) {
+    audio.currentTime = 0; 
+    audio.loop = true; 
+    audio.play();
+  }
 }
 
 document.addEventListener('click', function() {
