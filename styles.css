@@ -66,11 +66,11 @@ h1 {
 }
 
 #bar1 {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
 }
 
 #bar3 {
-  transform: translateY(4px);
+  transform: translateY(1px);
 }
 
 .nav {
@@ -127,12 +127,8 @@ user-select: none;
   transform: translateY(4px) rotateZ(-45deg);
 }
 
-.change #bar2 {
-  opacity: 0;
-}
-
 .change #bar3 {
-  transform: translateY(-6px) rotateZ(45deg);
+  transform: translateY(-1px) rotateZ(45deg);
 }
 
 .change-bg {
