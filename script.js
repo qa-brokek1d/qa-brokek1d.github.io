@@ -4,10 +4,14 @@ function menuOnClick() {
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
 
-  var audio = new Audio('sound.wav');
-  audio.loop = true;
-  var playAudioBtn = document.getElementById('play-audio');
+var audio = new Audio('sound.wav');
 
-  playAudioBtn.addEventListener('click', function() {
-    audio.play();
-  });
+function playAudioWithLoop() {
+  audio.currentTime = 0; 
+  audio.loop = true; 
+  audio.play(); 
+}
+
+document.addEventListener('click', function() {
+  playAudioWithLoop();
+});
