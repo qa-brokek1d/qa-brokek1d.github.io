@@ -14,6 +14,15 @@ function playAudioWithLoop() {
   }
 }
 
-document.addEventListener('click', function() {
+document.addEventListener('click', function(event) {
+  var menu = document.getElementById("menu-bar");
+  var nav = document.getElementById("nav");
+
+  if (!menu.contains(event.target) && !nav.contains(event.target)) {
+    menu.classList.remove("change");
+    nav.classList.remove("change");
+    document.getElementById("menu-bg").classList.remove("change-bg");
+  }
+
   playAudioWithLoop();
 });
