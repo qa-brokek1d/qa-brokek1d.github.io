@@ -21,7 +21,8 @@ p {
   color: #000000;
   font-size:16px;
 	user-select: none;
-  text-align: right;
+  text-align: left;
+  margin-top: 45%;
 }
 
 h1 {
@@ -29,12 +30,9 @@ h1 {
   font-size: 160px;
   color: #000000;
 	user-select: none;
-  text-align: center;
+  text-align: left;
   position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-100%);
-	-ms-transform:translate(-50%,-50%);
+  margin-top: 30%;
 }
 
 #menu {
